@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cornflowerblue;
+}
+ h1{
+    position: absolute;
+    left: 600px;
+    top: 30px;
+    font-size: 40px;
+}
+.name {
+    position: absolute;
+    left: 500px;
+    top: 150px;
+}
+.name input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 20px;
+}
+.name label{
+    font-size: 20px;
+}
+.pass {
+    position: absolute;
+    left: 472px;
+    top: 215px;
+}
+.pass input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 20px;
+}
+.pass label{
+    font-size: 20px;
+}
+ button{
+    position: absolute;
+    left: 640px;
+    top: 280px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+}
+button:hover{
+    background-color: crimson;
+    color: white;
+}
+a button{
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
