@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form{
+    width: 462px;
+    height: 269px;
+    background-color: #1f4005;
+    color: white;
+    position: absolute;
+    left: 423px;
+    top: 64px;
+}
+#fname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    text-align: center;
+    background: crimson;
+}
+#fname:hover{
+    background:white;
+    border: 1px solid black;
+}
+#lname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    text-align: center;
+    background: crimson;
+}
+#lname:hover{
+    background: white;
+    border: 1px solid black;
+}
+#Number{
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 70px;
+    top: 120px;
+    text-align: center;
+    background: crimson;
+}
+#Number:hover{
+    background: white;
+    border: 1px solid black;
+}
+#btn{
+    width: 120px;
+    height: 50px;
+    background: crimson;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+    position: absolute;
+    left: 160px;
+    top: 200px;
+}
+#btn:hover{
+    background: white;
+    color: crimson;
+}
+h1{
+    position: absolute;
+    left: 390px;
+    top: 7px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
