@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    background-color: rgb(125, 6, 38);
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 400px;
+    top: 100px;
+    border-radius: 30px;
+}
+.container .para{
+    color: rgb(1, 164, 55);
+    font-size: 24px;
+    padding-left: 24px;
+    padding-top: 8px;
+}
+.container #output{
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 7px;
+}
+.container #user{
+    width: 200px;
+    height: 30px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    text-align: center;
+    position: absolute;
+    left: 150px;
+    top: 90px;
+    background: white;
+}
+#user:hover{
+    background: crimson;
+    color: white;
+}
+.container #enter{
+    width: 70px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    position: absolute;
+    left: 150px;
+    top: 140px;
+}
+#enter:hover{
+    background: crimson;
+    color: white;
+}
+.container #again{
+    width: 90px;
+    height: 25px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background: white;
+    position: absolute;
+    left: 260px;
+    top: 140px;
+}
+#again:hover{
+    background: crimson;
+    color: white;
+}
