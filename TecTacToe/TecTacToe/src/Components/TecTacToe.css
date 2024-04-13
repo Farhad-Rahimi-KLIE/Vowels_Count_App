@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+td{
+    height: 150px;
+    width: 150px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 60px;
+    color: yellow;
+}
+table{
+    margin-left: 34%;
+    margin-top: 3%;
+}
