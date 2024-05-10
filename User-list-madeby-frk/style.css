@@ -1,0 +1,16 @@
+.container{
+    margin-top:20px;
+}
+.tablerow:nth-child(odd)
+{
+    background-color: lightblue;
+}
+#btn{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#userBtn{
+    margin-top:20px; 
+}
